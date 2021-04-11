@@ -1,4 +1,4 @@
-// api weather app http://api.openweathermap.org/data/2.5/forecast?id=524901&appid=79cff7cd0a17ad1579a5be192e674d47
+
 import React from 'react';
 import {Card} from 'react-bootstrap';
 
