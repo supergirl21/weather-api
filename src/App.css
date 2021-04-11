@@ -1,0 +1,23 @@
+body {
+  background-image: url("/src/wallpaperflare.com_wallpaper.jpg");
+}
+.App {
+  text-align: center;
+}
+.card_body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1em;
+
+}
+.search_title {
+  margin-top: .8em;
+  margin-bottom: .8em;
+}
+.row {
+  justify-content: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
