@@ -24,7 +24,7 @@ const App = () => {
     if(!data) return null;
     // return 
       // <WeatherList />
-      // <WeatherList weathers={data.list}/>
+      <WeatherList weathers={data.list}/>
 
   }
   
