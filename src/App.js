@@ -1,6 +1,6 @@
 import { Container } from 'react-bootstrap';
 import './App.css';
-import WeatherCard from './Components/WeatherCard';
+// import WeatherCard from './Components/WeatherCard';
 import CitySelector from './Components/CitySelector';
 import UseFetch from './hooks/UseFetch'
 import {API_KEY, API_BASE_URL} from './apis/config';
@@ -22,8 +22,9 @@ const App = () => {
             Loading...
           </h2>
     if(!data) return null;
-    return 
-      <WeatherList weathers={data.list} />
+    // return 
+      // <WeatherList />
+      // <WeatherList weathers={data.list}/>
 
   }
   
